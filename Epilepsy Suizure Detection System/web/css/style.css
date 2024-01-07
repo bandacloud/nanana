@@ -1,0 +1,56 @@
+.ebs-radio{
+    position:relative;
+}
+
+.ebs-radio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+}
+
+.ebs-radio .player{
+    width:130px;
+    position:absolute;
+    top:40%;
+    left:45%;
+}
+
+.page_item .children{
+    list-style-type: none!important;
+    display:none;
+}
+
+#metaslider_container_154{
+    margin-top:-15px!important;
+}
+
+.ms-image img{
+    width:100%;
+    object-fit:cover!important;
+    height:89vh!important;
+    object-position: center 25%;
+}
+
+@media(max-width:640px){
+    .ebs-radio .player{
+        left:40%;
+    }
+    .ms-image img{
+        height:70vh!important;
+    }
+}
+@media(max-width:550px){
+
+    .ms-image img{
+        height:60vh!important;
+    }
+}
+@media(max-width:450px){
+    .ebs-radio .player{
+        left:35%;
+    }
+    .ms-image img{
+        height:50vh!important;
+    }
+}

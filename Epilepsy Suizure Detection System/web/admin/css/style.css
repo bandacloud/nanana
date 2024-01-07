@@ -1,0 +1,16 @@
+.tbl-img{
+    width:50px;
+    object-fit:cover;
+    height:40px;
+}
+#curve_chart{
+    width:100%;
+    height:50vh;
+}
+
+@media(max-width:1300px){
+    #curve_chart{
+        width:60%;
+        height:50vh;
+    }
+}

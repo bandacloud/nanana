@@ -1,0 +1,11 @@
+.gate{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:350px;
+}
+@media(max-width:400px){
+    .gate{
+        width:100%;
+    }
+}

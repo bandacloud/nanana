@@ -1,0 +1,40 @@
+.dht img {
+    width: 120px;
+}
+
+.dht .icons {
+    height: 180px;
+}
+
+.dht .transformer img{
+    display:block;
+    /* margin-right:50%; */
+    /* margin-left:50%; */
+    width:300px;
+}
+
+.dht .icons .col-6 {
+    font-size: 40px;
+}
+
+.dht .phase{
+    text-align:center;
+    font-size:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+
+@media(max-width:500px) {
+    .dht img {
+        width: 80px;
+    }
+
+    .dht .icons {
+        height: 140px;
+    }
+
+    .dht .icons .col-6 {
+        font-size: 30px;
+    }
+}
